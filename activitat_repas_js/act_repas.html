@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Activitats de repàs</title>
+    <link rel="stylesheet" href="act_repas.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Llista dels nostres guanyadors del día:"</h1>
+    </main>
+    <aside>
+      <form id="formulari">
+        <h3>Primer formulari</h3>
+        <label for="nom">Escriu el teu nom:</label>
+        <input type="text" id="nom" />
+        <button type="button" onclick="afegir_nom()">Afegeix el teu nom</button>
+        <p>Escriu la teva direcció:</p>
+        <input type="text" />
+        <p>Escriu la població on vius:</p>
+        <input type="text" />
+      </form>
+      <br />
+      <form id="notes">
+        <h3>Segon formulari</h3>
+        <p>Nom alumne:</p>
+        <input type="text" id="alumne" />
+        <p>Nota primera avaluació:</p>
+        <input type="number" name="nota" />
+        <p>Nota segona avaluació:</p>
+        <input type="number" name="nota" />
+        <p>Nota final:</p>
+        <button type="button" onclick="calcular_nota()">Calcula la nota</button>
+      </form>
+      <br />
+      <form id="apartat3">
+        <h3>Tercer apartat</h3>
+        <p>Introdueix el que vulguis</p>
+        <input type="text" id="conversio" />
+        <button type="button" onclick="conversion()">Examina</button>
+      </form>
+    </aside>
+  </body>
+  <script src="act_repas.js"></script>
+</html>

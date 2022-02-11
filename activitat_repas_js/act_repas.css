@@ -1,0 +1,17 @@
+main {
+  left: 0%;
+}
+
+main > p {
+  color: red;
+  display: inline;
+}
+
+aside {
+  position: absolute;
+  right: 0%;
+}
+
+.resaltar {
+  color: red;
+}
